@@ -1,0 +1,21 @@
+.nav__container {
+  width: 100dvh;
+  margin: 0 auto;
+  padding: 1rem 0;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+
+  .nav__link {
+    font-size: 2em;
+    transition: .2s;
+    padding: .3rem;
+    border-radius: .3rem;
+
+    &:hover {
+      background: var(--blue);
+      color: var(--black);
+      transition: linear .2s;
+    }
+  }
+}

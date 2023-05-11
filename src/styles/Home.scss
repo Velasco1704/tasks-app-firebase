@@ -1,0 +1,14 @@
+.home__container {
+  height: 40dvh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .home__cards__container {
+    margin: 0 auto;
+    width: 60%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+  }
+}
